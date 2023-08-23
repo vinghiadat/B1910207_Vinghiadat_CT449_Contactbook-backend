@@ -1,18 +1,28 @@
 {
-  "name": "b1910207_contactbook-backend",
+  "name": "ct449_ptudweb",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "nodemon server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinghiadat/b1910207_ViNghiaDat_Contactbook-backend.git"
+  },
   "author": "Vi Dat",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinghiadat/b1910207_ViNghiaDat_Contactbook-backend/issues"
+  },
+  "homepage": "https://github.com/vinghiadat/b1910207_ViNghiaDat_Contactbook-backend#readme",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "mongodb": "^5.0.1"
   },
   "devDependencies": {
-    "nodemon": "^3.0.1"
+    "nodemon": "^2.0.20"
   }
 }
+
